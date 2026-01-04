@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
+
 <body>
     <div class="site-wrapper">
         <header class="site-header">
@@ -14,7 +17,6 @@
                 <div class="header-content">
                     <h1 class="site-title">
                         <a href="{{ '/' | relative_url }}">
-                            <img src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="Practice!" class="app-icon" />
                             Practice!
                         </a>
                     </h1>
@@ -29,7 +31,8 @@
                             {% assign item_url_normalized = item.url | relative_url %}
                             {% assign page_url_normalized = page.url | relative_url %}
                             <li>
-                                <a href="{{ item_url_normalized }}" {% if page_url_normalized == item_url_normalized or page.url == item.url %}class="active"{% endif %}>
+                                <a href="{{ item_url_normalized }}" {% if page_url_normalized==item_url_normalized or
+                                    page.url==item.url %}class="active" {% endif %}>
                                     {{ item.title }}
                                 </a>
                             </li>
@@ -61,5 +64,5 @@
 
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
-</html>
 
+</html>
