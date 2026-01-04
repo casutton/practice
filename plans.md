@@ -6,9 +6,11 @@ description: Creating and using practice plans in FolkTunesApp
 
 # Practice Plans
 
-**Why use practice plans:** Sometimes you want to focus on a specific set of tunes - maybe you're preparing for a performance, learning a set for a session, or working on tunes from a particular book. Practice plans let you group related tunes together so you can practice them as a set. When you start a practice session and select a plan, the app will suggest tunes from that plan, helping you focus on what you're working toward.
+Sometimes you want to focus on a specific set of tunes - maybe you're preparing for a performance, learning a set for a session, or working on tunes from a particular book. Practice plans let you group related tunes
+and exercises together so you can practice them as a set. 
 
-Practice plans help you organize your practice by grouping specific tunes and exercises together. Plans are useful for learning sets of related tunes or preparing for performances. Instead of practicing random tunes, plans help you work toward a specific goal.
+When you start a practice session, you can select a plan and see the tunes 
+you have listed so you can work through them.
 
 ## Creating a Practice Plan
 
@@ -18,15 +20,15 @@ Practice plans help you organize your practice by grouping specific tunes and ex
     <p>Go to the Improve tab, then select the Plans section.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Plans view showing list of practice plans</div>
-</div>
+![Plans view]({{ '/assets/images/plans-list.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
     <strong>Tap the add button</strong>
     <p>Tap the "+" button to create a new plan.</p>
 </div>
+
+![Add plan]({{ '/assets/images/plan-form.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
@@ -38,18 +40,10 @@ Practice plans help you organize your practice by grouping specific tunes and ex
     </ul>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: New plan form</div>
-</div>
-
 <div class="flow-step">
     <span class="step-number">4</span>
     <strong>Add tunes to the plan</strong>
     <p>Select tunes from your library to include in the plan.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Adding tunes to a practice plan</div>
 </div>
 
 <div class="flow-step">
@@ -60,6 +54,8 @@ Practice plans help you organize your practice by grouping specific tunes and ex
 
 ## Using a Practice Plan
 
+You use a practice plan when you are choosing tunes for a practice session.
+
 <div class="flow-step">
     <span class="step-number">1</span>
     <strong>Start a practice session</strong>
@@ -69,17 +65,32 @@ Practice plans help you organize your practice by grouping specific tunes and ex
 <div class="flow-step">
     <span class="step-number">2</span>
     <strong>Select a plan</strong>
-    <p>During a practice session, you can choose to practice from a specific plan.</p>
+    <p>Select the button to "Choose a Tune to Practice". This brings up
+    the tune picker.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Plan selection during practice session</div>
-</div>
+![Tune picker]({{ '/assets/images/tune-picker-with-search.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
-    <strong>Practice tunes from the plan</strong>
-    <p>The app will suggest tunes from your selected plan.</p>
+    <strong>Tap the magnifying glass at top right.</strong>
+    <p>That brings up the list of saved searches and plans.</p>
+</div>
+
+![Plan picker]({{ '/assets/images/plan-picker.png' | relative_url }})
+
+<div class="flow-step">
+    <span class="step-number">4</span>
+    <strong>Select the plan</strong>
+    <p>Select the plan you want to use.</p>
+</div>
+
+![Plan filter]({{ '/assets/images/plan-filter.png' | relative_url }})
+
+<div class="flow-step">
+    <span class="step-number">5</span>
+    <strong>Choose tunes from the plan</strong>
+    <p>Now you see the tunes from the plan. You can select tunes to practice.</p>
 </div>
 
 ## Editing Plans
@@ -88,10 +99,6 @@ Practice plans help you organize your practice by grouping specific tunes and ex
     <span class="step-number">1</span>
     <strong>Open a plan</strong>
     <p>From the Plans view, tap on a plan to view its details.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Plan detail view showing included tunes</div>
 </div>
 
 <div class="flow-step">
