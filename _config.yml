@@ -1,0 +1,40 @@
+title: FolkTunesApp Documentation
+description: Complete documentation for FolkTunesApp - a spaced repetition app for learning folk tunes
+url: "http://www.theexclusive.org"
+baseurl: "/practice"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+navigation:
+  - title: Getting Started
+    url: /practice/
+  - title: Practice Sessions
+    url: /practice/practice-sessions/
+  - title: Spaced Repetition
+    url: /practice/spaced-repetition/
+  - title: Goals
+    url: /practice/goals/
+  - title: Exercises
+    url: /practice/exercises/
+  - title: Plans
+    url: /practice/plans/
+  - title: Organizing Tunes
+    url: /practice/organizing/
+  - title: Data Management
+    url: /practice/data-management/
+  - title: Settings
+    url: /practice/settings/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
