@@ -6,6 +6,12 @@ baseurl: "/practice"
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+# Sass/SCSS settings
+sass:
+  sass_dir: assets/css
+  style: compressed
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
