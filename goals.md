@@ -14,315 +14,178 @@ There are four "motivational things" in Practice!:
 4. Badges: The app tracks your progress and rewards you with badges for milestones you reach, if that's your thing. You can see this in History > Badges.
 
 
-## Goal Types
+## 1. Goals
 
-### Daily Goals
+Goals are personal reminders to yourself about what you want to achieve. Unlike Targets (which track quantitative metrics), Goals are qualitative messages you set to guide your practice.
 
-**When to use daily goals:** Daily goals are perfect for building a regular practice habit. Maybe you want to practice 20 minutes every day, or practice at least 3 tunes each day. Daily goals reset each morning, so you start fresh every day. This helps you build consistency - even if you miss a day, you can pick right back up the next day.
+### Creating a Goal
 
 <div class="flow-step">
     <span class="step-number">1</span>
-    <strong>Create a daily goal</strong>
-    <p>Go to Improve > Goals and tap the "+" button. Select "Daily" as the goal type.</p>
+    <strong>Navigate to Goals</strong>
+    <p>Go to Improve > Goals and tap the "+" button.</p>
 </div>
 
 ![New goal screen]({{ '/assets/images/add-goal-view.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
-    <strong>Set your target</strong>
-    <p>Choose what to track (Time, Tunes, Exercises, or Sessions) and set your target value.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Goal target selection (time, tunes, etc.)</div>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">3</span>
-    <strong>Configure timing (optional)</strong>
-    <p>You can restrict when the goal appears:</p>
-    <ul>
-        <li>Specific days of the week</li>
-        <li>First session of the week only</li>
-        <li>Specific instrument</li>
-    </ul>
-</div>
-
-### Weekly Goals
-
-**When to use weekly goals:** Weekly goals are great when you want more flexibility in your schedule. Maybe you can't practice every day, but you want to practice 2 hours total each week. Weekly goals let you practice more on some days and less on others, as long as you hit your weekly target. This works well for people with busy or irregular schedules.
-
-<div class="flow-step">
-    <span class="step-number">1</span>
-    <strong>Create a weekly goal</strong>
-    <p>Select "Weekly" as the goal type when creating a new goal.</p>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">2</span>
-    <strong>Set start and end dates</strong>
-    <p>The app will automatically set the week boundaries, or you can customize them.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Weekly goal with date range</div>
-</div>
-
-### Monthly Goals
-
-Monthly goals help you track progress over a longer period.
-
-<div class="flow-step">
-    <span class="step-number">1</span>
-    <strong>Create a monthly goal</strong>
-    <p>Select "Monthly" as the goal type.</p>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">2</span>
-    <strong>Set the month</strong>
-    <p>Choose which month the goal applies to, or let it default to the current month.</p>
-</div>
-
-### Streak Goals
-
-**When to use streak goals:** Streak goals help you build a daily practice habit by tracking how many days in a row you've practiced. The longer your streak, the more motivated you'll be to keep it going. Streak goals are great for building consistency - even if you only practice for 10 minutes, it keeps your streak alive and helps you maintain the habit.
-
-<div class="flow-step">
-    <span class="step-number">1</span>
-    <strong>Create a streak goal</strong>
-    <p>Select "Streak" as the goal type.</p>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">2</span>
-    <strong>Set target days</strong>
-    <p>Choose how many consecutive days you want to practice.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Streak goal showing current streak and target</div>
-</div>
-
-## Goal Units
-
-Goals can track different metrics:
-
-- **Time** - Total practice time in minutes
-- **Tunes** - Number of tunes practiced
-- **Exercises** - Number of exercises completed
-- **Sessions** - Number of practice sessions
-
-## Creating a Goal
-
-<div class="flow-step">
-    <span class="step-number">1</span>
-    <strong>Navigate to Goals</strong>
-    <p>Go to the Improve tab, then select the Goals section.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Goals view showing list of active goals</div>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">2</span>
-    <strong>Tap the add button</strong>
-    <p>Tap the "+" button in the top right corner.</p>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">3</span>
     <strong>Enter goal details</strong>
     <p>Fill in the goal form:</p>
     <ul>
-        <li>Title (e.g., "Practice 30 minutes daily")</li>
-        <li>Goal type (Daily, Weekly, Monthly, or Streak)</li>
-        <li>What to track (Time, Tunes, Exercises, or Sessions)</li>
-        <li>Target value</li>
+        <li><strong>Title</strong> - A short description of your goal (e.g., "Work on intonation")</li>
+        <li><strong>Description</strong> - Optional additional notes about your goal</li>
     </ul>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: New goal form with all fields</div>
-</div>
-
 <div class="flow-step">
-    <span class="step-number">4</span>
-    <strong>Set timing restrictions (optional)</strong>
-    <p>Configure when the goal should appear:</p>
+    <span class="step-number">3</span>
+    <strong>Choose Time Frame</strong>
+    <p>Select when you want to work on this goal:</p>
     <ul>
-        <li>Days of the week</li>
-        <li>First session of the week</li>
-        <li>Specific instrument</li>
+        <li><strong>Next Session</strong> - The goal appears every practice session until completed</li>
+        <li><strong>This Week</strong> - The goal is active for the current week</li>
+        <li><strong>This Month</strong> - The goal is active for the current month</li>
     </ul>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Goal timing configuration options</div>
-</div>
-
 <div class="flow-step">
-    <span class="step-number">5</span>
-    <strong>Save the goal</strong>
-    <p>Tap "Save" to create the goal. It will appear in your active goals list.</p>
-</div>
-
-## Completing Goals
-
-During a practice session, the app tracks your progress toward active goals.
-
-<div class="flow-step">
-    <span class="step-number">1</span>
-    <strong>Goal appears during practice</strong>
-    <p>When you complete a goal during a practice session, the app will notify you.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Goal completion notification during practice</div>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">2</span>
-    <strong>Mark goal completion</strong>
-    <p>You'll see a screen to mark the goal's completion status:</p>
+    <span class="step-number">4</span>
+    <strong>Set Filters (Optional)</strong>
+    <p>Restrict when the goal should appear:</p>
     <ul>
-        <li><strong>Completed</strong> - You met your goal</li>
-        <li><strong>Partially Completed</strong> - You made progress but didn't fully meet the goal</li>
-        <li><strong>Not Completed</strong> - You didn't meet the goal</li>
+        <li><strong>Days of Week</strong> - Select specific days when this goal should appear</li>
+        <li><strong>First Session of Week</strong> - Only show on your first practice session each week</li>
+        <li><strong>Instrument</strong> - Only show when practicing a specific instrument (if multi-instrument mode is enabled)</li>
     </ul>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Goal completion status selection</div>
-</div>
+### Completing Goals
 
-<div class="flow-step">
-    <span class="step-number">3</span>
-    <strong>Add completion notes (optional)</strong>
-    <p>You can add notes about how you completed the goal or what you achieved.</p>
-</div>
+When you're finished with a goal, you can mark it complete:
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Goal completion notes field</div>
-</div>
+1. Swipe left on the goal and tap "Complete", or
+2. Tap on the goal and select "Mark as Complete"
 
-<div class="flow-step">
-    <span class="step-number">4</span>
-    <strong>Save completion</strong>
-    <p>Tap "Save" to record the goal completion. The goal will move to your completed goals list.</p>
-</div>
+You'll be prompted to add a completion note describing what you achieved. Goals support three completion statuses:
+- **Needs Work** - You made progress but want to continue working on this
+- **Good** - You achieved satisfactory results  
+- **Great** - You exceeded your expectations
 
-## Viewing Goals
+![Goal completion status]({{ '/assets/images/goal-completion-status.png' | relative_url }})
 
-### Active Goals
+### Viewing Goals
 
-Active goals appear in the Goals view and show your current progress.
+![Active goals list]({{ '/assets/images/goals-list-active.png' | relative_url }})
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Active goals list with progress indicators</div>
-</div>
+The Goals view shows your **Active Goals** at the top and **Completed Goals** in a separate section below. Completed goals can be reactivated by swiping and tapping "Unarchive".
 
-### Completed Goals
+## 2. Targets
 
-Completed goals are shown in a separate section below active goals.
+Targets are quantitative practice goals that track how much you want to practice. Unlike Goals (which are qualitative reminders), Targets measure specific metrics.
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Completed goals section</div>
-</div>
+### Creating a Target
 
-## Editing Goals
+Navigate to **Improve > Targets** to set up your practice targets.
 
 <div class="flow-step">
     <span class="step-number">1</span>
-    <strong>Open a goal</strong>
-    <p>Tap on any goal in the Goals view to open its detail screen.</p>
+    <strong>Choose Target Type</strong>
+    <p>Enable either a Daily Target, Weekly Target, or both:</p>
+    <ul>
+        <li><strong>Daily Target</strong> - A goal you want to achieve each day</li>
+        <li><strong>Weekly Target</strong> - A goal you want to achieve each week</li>
+    </ul>
 </div>
 
 <div class="flow-step">
     <span class="step-number">2</span>
-    <strong>Tap Edit</strong>
-    <p>Tap the "Edit" button to modify the goal.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Goal detail view with edit button</div>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">3</span>
-    <strong>Make changes</strong>
-    <p>Modify any aspect of the goal: title, type, target, or timing restrictions.</p>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">4</span>
-    <strong>Save changes</strong>
-    <p>Tap "Save" to update the goal.</p>
-</div>
-
-## Archiving Goals
-
-You can archive goals that you no longer want to track actively.
-
-<div class="flow-step">
-    <span class="step-number">1</span>
-    <strong>Swipe on a goal</strong>
-    <p>In the Goals view, swipe left on a goal to reveal actions.</p>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">2</span>
-    <strong>Tap Complete</strong>
-    <p>Tap "Complete" to mark the goal as completed and archive it.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Goal swipe actions (Complete and Delete)</div>
-</div>
-
-## Deleting Goals
-
-<div class="flow-step">
-    <span class="step-number">1</span>
-    <strong>Swipe on a goal</strong>
-    <p>Swipe left on the goal you want to delete.</p>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">2</span>
-    <strong>Tap Delete</strong>
-    <p>Tap the red "Delete" button.</p>
+    <strong>Choose What to Track</strong>
+    <p>Select the unit you want to measure:</p>
+    <ul>
+        <li><strong>Time</strong> - Track practice time in minutes (e.g., "30 minutes per day")</li>
+        <li><strong>Sessions</strong> - Track number of practice sessions (e.g., "1 session per day")</li>
+    </ul>
 </div>
 
 <div class="flow-step">
     <span class="step-number">3</span>
-    <strong>Confirm deletion</strong>
-    <p>Confirm that you want to delete the goal. This action cannot be undone.</p>
+    <strong>Set Your Target Value</strong>
+    <p>Enter how much you want to practice. For time-based targets, you can set hours and minutes.</p>
 </div>
 
-## Goal Timing Restrictions
+### Target Examples
 
-Goals can be configured to only appear at specific times:
+- "Practice 30 minutes every day"
+- "Complete 5 practice sessions per week"
+- "Practice 2 hours per week"
 
-### Days of the Week
+## 3. Reminders
 
-Restrict a goal to specific days (e.g., only weekdays or only weekends).
+Reminders are push notifications that prompt you to practice. You can set these up in **Improve > Reminders**.
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Day of week selection for goal timing</div>
+### Daily Practice Reminders
+
+<div class="flow-step">
+    <span class="step-number">1</span>
+    <strong>Enable Reminders</strong>
+    <p>Toggle "Enable Practice Reminders" to turn on notifications.</p>
 </div>
 
-### First Session of the Week
+<div class="flow-step">
+    <span class="step-number">2</span>
+    <strong>Choose Days</strong>
+    <p>Select which days of the week you want to receive reminders (e.g., weekdays only).</p>
+</div>
 
-The goal only appears during your first practice session each week.
+<div class="flow-step">
+    <span class="step-number">3</span>
+    <strong>Set Reminder Time</strong>
+    <p>Choose what time you want to be reminded to practice.</p>
+</div>
 
-### Instrument-Specific
+### Streak Protection
 
-The goal only appears when practicing a specific instrument.
+There's a special "Remind me about current streak" option that sends you a reminder later in the day if you haven't practiced yet. This helps protect your practice streak by giving you a heads-up before the day ends.
 
 <div class="info">
-    <strong>Note:</strong> Timing restrictions help you create focused goals. For example, you might have a daily goal that only appears on weekdays, or a goal that only tracks practice on a specific instrument.
+    <strong>Tip:</strong> Set your streak protection reminder for the evening (e.g., 8:00 PM) so you get a nudge if you've forgotten to practice that day.
 </div>
+
+---
+
+## 4. Badges
+
+The app rewards you with achievement badges for reaching practice milestones. View your badges in **History > Badges**.
+
+### Badge Categories
+
+Badges are organized into four categories:
+
+**Streak Badges** 🔥
+- **Week Warrior** - Practice for 7 days in a row
+- **Two Week Champion** - Practice for 14 days in a row
+- **Monthly Master** - Practice for 30 days in a row
+- **Century Streak** - Practice for 100 days in a row
+
+**Session Badges** 🎵
+- **Getting Started** - Complete 10 practice sessions
+- **Dedicated Player** - Complete 50 practice sessions
+- **Century Sessions** - Complete 100 practice sessions
+- **Practice Legend** - Complete 500 practice sessions
+
+**Time Badges** ⏰
+- **10 Hour Club** - Practice for 10 total hours
+- **50 Hour Master** - Practice for 50 total hours
+- **Century Hours** - Practice for 100 total hours
+- **500 Hour Hero** - Practice for 500 total hours
+
+**Tune Badges** 🎶
+- **Tune Explorer** - Practice 10 different tunes
+- **Tune Collector** - Practice 50 different tunes
+- **Tune Master** - Practice 100 different tunes
+
+### Enabling/Disabling Badge Reminders
+
+If you find the badge notifications distracting, you can disable them in **Settings > Show Achievement Reminders**. Your progress will still be tracked, and you can always view your badges in History > Badges.
 

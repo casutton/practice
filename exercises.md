@@ -6,9 +6,8 @@ description: Creating and practicing exercises in FolkTunesApp
 
 # Exercises
 
-**Why practice exercises:** While tunes are fun to play, exercises help you build the fundamental skills that make playing tunes easier. Scales, arpeggios, and technical exercises improve your finger dexterity, intonation, and overall technique. Practicing exercises regularly makes you a better musician, even when you're not playing specific tunes.
-
-Exercises are technical practice routines that help you improve specific skills. Unlike tunes, exercises focus on technique, scales, arpeggios, or other fundamental skills. You can track exercises the same way you track tunes - the app will suggest exercises that need practice based on your spaced repetition schedule.
+Exercises are technical practice routines that help you improve specific skills. Unlike tunes, exercises focus on technique, scales, arpeggios, or other fundamental skills. 
+You can track which exercises you practice, and we keep track of them in a separate place from tunes, so they don't clutter up your library of music.
 
 ## Creating an Exercise
 
@@ -18,15 +17,16 @@ Exercises are technical practice routines that help you improve specific skills.
     <p>Go to the Improve tab, then select the Exercises section.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Exercises view showing list of exercises</div>
-</div>
+![Exercises view]({{ '/assets/images/exercise-list.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
     <strong>Tap the add button</strong>
     <p>Tap the "+" button in the top right corner.</p>
 </div>
+
+
+![Exercises form]({{ '/assets/images/exercise-form.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
@@ -37,10 +37,6 @@ Exercises are technical practice routines that help you improve specific skills.
         <li><strong>Description</strong> - What the exercise focuses on</li>
         <li><strong>Category</strong> - Type of exercise (optional)</li>
     </ul>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: New exercise form</div>
 </div>
 
 <div class="flow-step">
@@ -57,15 +53,15 @@ Exercises are technical practice routines that help you improve specific skills.
     <p>Go to the Practice tab and start a practice session.</p>
 </div>
 
+![Practice session]({{ '/assets/images/practice-session-active-timer.png' | relative_url }})
+
 <div class="flow-step">
     <span class="step-number">2</span>
     <strong>Select an exercise</strong>
     <p>During a practice session, tap the exercise picker button to choose an exercise to practice.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Exercise picker during practice session</div>
-</div>
+![Exercise picker]({{ '/assets/images/exercise-picker.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
@@ -77,10 +73,6 @@ Exercises are technical practice routines that help you improve specific skills.
     <span class="step-number">4</span>
     <strong>Rate your performance</strong>
     <p>After practicing, rate the exercise similar to how you rate tunes.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Exercise practice rating screen</div>
 </div>
 
 ## Editing Exercises
@@ -97,9 +89,7 @@ Exercises are technical practice routines that help you improve specific skills.
     <p>Tap the "Edit" button to modify the exercise.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Exercise detail view with edit button</div>
-</div>
+![Exercise form]({{ '/assets/images/exercise-form.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
@@ -112,12 +102,3 @@ Exercises are technical practice routines that help you improve specific skills.
     <strong>Save changes</strong>
     <p>Tap "Save" to update the exercise.</p>
 </div>
-
-## Exercise Practice History
-
-You can view your practice history for exercises, similar to tune practice history.
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Exercise practice history</div>
-</div>
-
