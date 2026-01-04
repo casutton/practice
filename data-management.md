@@ -1,12 +1,16 @@
 ---
 layout: default
 title: Data Management
-description: Importing, exporting, and managing your data in FolkTunesApp
+description: Importing, exporting, and managing your data in Practice!
 ---
 
 # Data Management
 
-FolkTunesApp provides tools to backup, restore, and manage your practice data.
+Practice! provides tools to backup, restore, and manage your practice data.
+
+We sync data via iCloud, so you can access your data on any device that has Practice! installed.
+
+Also, you can use import and export to save regular backups of your practice data manually.
 
 ## Exporting Data
 
@@ -24,9 +28,7 @@ Exporting creates a backup of all your data that you can restore later or transf
     <p>Scroll to the "Data Management" section.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Settings screen showing Data Management section</div>
-</div>
+![Settings screen showing Data Management section]({{ '/assets/images/settings-data-management.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
@@ -40,9 +42,7 @@ Exporting creates a backup of all your data that you can restore later or transf
     <p>Use the share sheet to save the file to Files, email it, or save it to another app.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Share sheet for exporting data</div>
-</div>
+![Share sheet for exporting data]({{ '/assets/images/export-share-sheet.png' | relative_url }})
 
 <div class="info">
     <strong>What's included in the export:</strong>
@@ -74,10 +74,6 @@ You can restore data from a previous export or import data from another device.
     <p>This opens the file picker.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: File picker for importing data</div>
-</div>
-
 <div class="flow-step">
     <span class="step-number">3</span>
     <strong>Select the export file</strong>
@@ -90,9 +86,7 @@ You can restore data from a previous export or import data from another device.
     <p>The app will show you what was imported: how many tunes, sessions, etc.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Import results screen</div>
-</div>
+![Import results screen]({{ '/assets/images/import-results.png' | relative_url }})
 
 <div class="warning">
     <strong>Important:</strong> Importing data will merge with your existing data. Tunes with the same title may be updated. Make sure you have a recent backup before importing.
@@ -100,16 +94,12 @@ You can restore data from a previous export or import data from another device.
 
 ## ForScore Import
 
-FolkTunesApp can import tunes from ForScore 4SC files.
+Practice! can import tunes from ForScore 4SC files.
 
 <div class="flow-step">
     <span class="step-number">1</span>
     <strong>Share from ForScore</strong>
-    <p>In ForScore, share a 4SC file and select FolkTunesApp from the share options.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: ForScore share sheet with FolkTunesApp option</div>
+    <p>In ForScore, share a 4SC file and select Practice! from the share options.</p>
 </div>
 
 <div class="flow-step">
@@ -122,9 +112,7 @@ FolkTunesApp can import tunes from ForScore 4SC files.
     </ul>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: ForScore import options screen</div>
-</div>
+![ForScore import options screen]({{ '/assets/images/forscore-import-options.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
@@ -132,13 +120,9 @@ FolkTunesApp can import tunes from ForScore 4SC files.
     <p>Fill in any additional tune information and tap "Import".</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: ForScore import form with metadata</div>
-</div>
-
 ## iCloud Sync
 
-FolkTunesApp supports iCloud sync to keep your data synchronized across multiple devices.
+Practice! supports iCloud sync to keep your data synchronized across multiple devices.
 
 ### Checking iCloud Status
 
@@ -146,10 +130,6 @@ FolkTunesApp supports iCloud sync to keep your data synchronized across multiple
     <span class="step-number">1</span>
     <strong>Open Settings</strong>
     <p>Navigate to Settings > iCloud Sync.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: iCloud Sync status in settings</div>
 </div>
 
 <div class="flow-step">
@@ -190,28 +170,13 @@ If you need to start fresh, you can delete all data from the app.
     <p>This is a destructive action, so it's in red text.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Delete All Data button in settings</div>
-</div>
-
 <div class="flow-step">
     <span class="step-number">3</span>
     <strong>Confirm deletion</strong>
     <p>You'll be asked to confirm. This action cannot be undone.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Delete confirmation dialog</div>
-</div>
-
 <div class="warning">
     <strong>Warning:</strong> Deleting all data will permanently remove all tunes, practice sessions, goals, and settings. Make sure you have exported your data first if you want to keep it.
 </div>
-
-## Backup Best Practices
-
-1. **Export regularly** - Export your data weekly or monthly to ensure you have recent backups
-2. **Store backups safely** - Save export files to iCloud Drive, Dropbox, or another cloud service
-3. **Test your backups** - Periodically verify that you can import your backup files
-4. **Before major changes** - Export before making significant changes or before updating the app
 

@@ -6,11 +6,15 @@ description: Understanding the spaced repetition system in FolkTunesApp
 
 # Spaced Repetition
 
-FolkTunesApp uses a spaced repetition system based on the Leitner method to help you learn tunes more effectively. The system organizes tunes into "buckets" and schedules reviews based on how well you know each tune.
+**Why spaced repetition works:** Research shows that you remember things better when you practice them right before you're about to forget them. Instead of practicing the same tunes every day (which wastes time on tunes you already know), spaced repetition schedules practice at the optimal time - when it will do the most good.
+
+Practice! uses a spaced repetition system based on the Leitner method to help you learn tunes more effectively. The system organizes tunes into "buckets" and schedules reviews based on how well you know each tune. This means you spend more time on tunes that need work, and less time on tunes you've already mastered.
 
 ## How It Works
 
-When you rate a tune after practicing, the app moves it to a different bucket. Each bucket has a different review interval, determining when the tune will appear again.
+**The basic idea:** When you rate a tune after practicing, the app moves it to a different bucket. Each bucket has a different review interval - tunes in lower buckets (that you know less well) appear again soon, while tunes in higher buckets (that you know well) appear less frequently. This way, the app automatically focuses your practice on what needs the most work.
+
+When you rate a tune after practicing, the app moves it to a different bucket. Each bucket has a different review interval, determining when the tune will appear again. The better you know a tune, the longer the interval before it appears again.
 
 ### Rating to Bucket Movement
 
@@ -37,9 +41,7 @@ When you rate a tune after practicing, the app moves it to a different bucket. E
     <p>The app calculates when the tune should be reviewed again based on the bucket's interval.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Tune detail view showing current bucket and next review date</div>
-</div>
+![Tune detail view showing current bucket and next review date]({{ '/assets/images/tune-detail-view.png' | relative_url }})
 
 ## The Bucket System
 
@@ -50,9 +52,7 @@ The app uses five buckets with increasing review intervals:
 - **Purpose:** Tunes that need immediate review
 - **When tunes are here:** After rating a tune as "Difficult"
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Bucket settings showing "Next Session" configuration</div>
-</div>
+![Bucket settings showing Next Session configuration]({{ '/assets/images/bucket-settings-intervals.png' | relative_url }})
 
 ### Bucket 1: Next Week
 - **Default interval:** 3 days
@@ -76,7 +76,9 @@ The app uses five buckets with increasing review intervals:
 
 ## Customizing Bucket Intervals
 
-You can customize how long each bucket waits before review.
+**Why customize:** The default intervals work well for most people, but you might want to adjust them based on how often you practice or how quickly you learn. If you practice every day, shorter intervals might work better. If you practice less frequently, you might want longer intervals so tunes don't pile up.
+
+You can customize how long each bucket waits before review. This lets you tailor the system to your practice schedule and learning style.
 
 <div class="flow-step">
     <span class="step-number">1</span>
@@ -90,9 +92,7 @@ You can customize how long each bucket waits before review.
     <p>In the "Practice Settings" section, tap "Configure Bucket Intervals".</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Settings screen showing "Configure Bucket Intervals" option</div>
-</div>
+![Settings screen showing Configure Bucket Intervals option]({{ '/assets/images/settings-bucket-intervals.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
@@ -100,9 +100,7 @@ You can customize how long each bucket waits before review.
     <p>For each bucket, set the number of days before the next review. You can use the slider or enter a value directly.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Bucket settings screen with interval sliders</div>
-</div>
+![Bucket settings screen with interval sliders]({{ '/assets/images/bucket-settings-intervals.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">4</span>
@@ -130,21 +128,18 @@ You can see which bucket a tune is in and when it's due for review.
     <p>The tune detail view shows the current bucket and next review date.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Tune detail view with bucket and next review information</div>
-</div>
 
 ## How Tunes Are Selected for Practice
 
-When you start a practice session, the app suggests tunes based on:
+**Why the app suggests certain tunes:** When you start a practice session, the app suggests tunes that will benefit most from practice right now. This saves you from having to decide what to practice - the app does the thinking for you based on what you need to work on.
 
-1. **Due for review** - Tunes whose next review date has passed
-2. **Bucket priority** - Tunes in lower buckets (that need more practice) appear first
-3. **Recent practice** - Tunes you haven't practiced recently
+The app suggests tunes based on:
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Practice view showing suggested tunes with bucket indicators</div>
-</div>
+1. **Due for review** - Tunes whose next review date has passed (these are ready to practice again)
+2. **Bucket priority** - Tunes in lower buckets (that need more practice) appear first, so you focus on what needs the most work
+3. **Recent practice** - Tunes you haven't practiced recently get priority, so nothing gets forgotten
+
+![Practice view showing suggested tunes with bucket indicators]({{ '/assets/images/practice-view-bucket-indicators.png' | relative_url }})
 
 ## Understanding the Algorithm
 

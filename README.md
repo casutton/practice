@@ -1,6 +1,6 @@
-# FolkTunesApp Documentation
+# Practice! Documentation
 
-This is the documentation site for FolkTunesApp, built with Jekyll and hosted on GitHub Pages.
+This is the documentation site for Practice!, built with Jekyll and hosted on GitHub Pages.
 
 ## Setup
 
@@ -18,7 +18,7 @@ This site is configured for GitHub Pages. Simply push to the `main` branch and G
 Place screenshots in the `assets/images/` directory and reference them in markdown files:
 
 ```markdown
-![Alt text](/practice/assets/images/screenshot.png)
+![App Icon Example]({{ '/assets/images/app-icon.png' | relative_url }})
 ```
 
 ## Documentation Structure

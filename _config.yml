@@ -1,5 +1,5 @@
-title: FolkTunesApp Documentation
-description: Complete documentation for FolkTunesApp - a spaced repetition app for learning folk tunes
+title: Practice! Documentation
+description: Complete documentation for Practice! - a spaced repetition app for learning folk tunes
 url: "http://www.theexclusive.org"
 baseurl: "/practice"
 
@@ -12,24 +12,26 @@ plugins:
 
 # Navigation
 navigation:
+  - title: Home
+    url: /
   - title: Getting Started
-    url: /practice/
+    url: /getting-started/
   - title: Practice Sessions
-    url: /practice/practice-sessions/
+    url: /practice-sessions/
   - title: Spaced Repetition
-    url: /practice/spaced-repetition/
+    url: /spaced-repetition/
   - title: Goals
-    url: /practice/goals/
+    url: /goals/
   - title: Exercises
-    url: /practice/exercises/
+    url: /exercises/
   - title: Plans
-    url: /practice/plans/
+    url: /plans/
   - title: Organizing Tunes
-    url: /practice/organizing/
+    url: /organizing/
   - title: Data Management
-    url: /practice/data-management/
+    url: /data-management/
   - title: Settings
-    url: /practice/settings/
+    url: /settings/
 
 # Exclude from processing
 exclude:

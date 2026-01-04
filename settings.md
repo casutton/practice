@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Settings
-description: Configuring FolkTunesApp settings
+description: Configuring Practice! settings
 ---
 
 # Settings
 
-FolkTunesApp settings allow you to customize the app to fit your practice needs.
+Practice! settings allow you to customize the app to fit your practice needs.
 
 ## Profiles
 
@@ -26,18 +26,12 @@ Profiles let you separate practice data for different musicians or practice cont
     <p>Tap on the current profile in the "Profiles" section, or tap "Manage Profiles".</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Profile settings screen</div>
-</div>
+![Profile settings screen]({{ '/assets/images/profile-settings.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
     <strong>Create a new profile</strong>
     <p>Tap the "+" button to create a new profile. Enter a name and select an icon.</p>
-</div>
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: New profile form</div>
 </div>
 
 <div class="flow-step">
@@ -56,9 +50,7 @@ Profiles let you separate practice data for different musicians or practice cont
     <p>In Settings > Practice Settings, toggle "Track Instruments" to enable.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Instrument tracking toggle</div>
-</div>
+![Instrument tracking toggle]({{ '/assets/images/instrument-tracking-toggle.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
@@ -76,9 +68,7 @@ Configure how long each spaced repetition bucket waits before review.
     <p>In Settings > Practice Settings, tap "Configure Bucket Intervals".</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Bucket settings screen</div>
-</div>
+![Bucket settings screen]({{ '/assets/images/bucket-settings-intervals.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
@@ -102,9 +92,7 @@ Configure what statistics appear on your practice dashboard.
     <p>In Settings > Practice Settings, tap "Dashboard Settings".</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Dashboard settings screen</div>
-</div>
+![Dashboard settings screen]({{ '/assets/images/dashboard-settings.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
@@ -146,9 +134,7 @@ See the [Organizing Your Tunes](/practice/organizing/) section for details on cu
     <p>In Settings > Appearance, tap "Change App Icon".</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: App icon selection screen</div>
-</div>
+![App icon selection screen]({{ '/assets/images/app-icon-selection.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
@@ -160,10 +146,6 @@ See the [Organizing Your Tunes](/practice/organizing/) section for details on cu
 
 Toggle whether the app shows achievement reminders when you reach milestones.
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: Achievement reminders toggle</div>
-</div>
-
 ## Data Management
 
 See the [Data Management](/practice/data-management/) section for details on exporting, importing, and managing your data.
@@ -171,8 +153,4 @@ See the [Data Management](/practice/data-management/) section for details on exp
 ## About
 
 The About section shows the current app version.
-
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: About section with version number</div>
-</div>
 

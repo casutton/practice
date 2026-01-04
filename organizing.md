@@ -6,11 +6,13 @@ description: Managing genres, tags, custom fields, and instruments in FolkTunesA
 
 # Organizing Your Tunes
 
-FolkTunesApp provides several ways to organize your tune library: genres, tags, custom fields, and instruments.
+**Why organize your tunes:** As your tune library grows, you'll want to find tunes quickly. Maybe you're looking for Irish tunes for a session, or you want to practice all your waltzes. Organizing your tunes helps you find what you need when you need it.
+
+Practice! provides several ways to organize your tune library: genres, tags, custom fields, and instruments. You don't need to use all of them - pick the ones that make sense for how you think about your music.
 
 ## Genres
 
-Genres help you categorize tunes by musical tradition or style (e.g., Irish, Scottish, English, American).
+**Why use genres:** Genres help you categorize tunes by musical tradition or style (e.g., Irish, Scottish, English, American). This is useful when you want to practice tunes from a specific tradition, or when you're preparing for a session that focuses on a particular style. Genres are simple - each tune has one genre, so it's easy to filter your library.
 
 ### Managing Genres
 
@@ -68,7 +70,9 @@ Genres help you categorize tunes by musical tradition or style (e.g., Irish, Sco
 
 ## Tags
 
-Tags provide flexible organization. A tune can have multiple tags, making it easy to find tunes by mood, difficulty, occasion, or any other category.
+**Why use tags:** Tags are more flexible than genres - a tune can have multiple tags, so you can organize tunes in different ways. Maybe you tag tunes by mood (happy, sad, energetic), by difficulty (beginner, intermediate, advanced), or by occasion (session tunes, performance pieces, learning tunes). Tags let you find tunes based on whatever criteria matter to you.
+
+Tags provide flexible organization. A tune can have multiple tags, making it easy to find tunes by mood, difficulty, occasion, or any other category. Use tags however makes sense for your practice - there's no right or wrong way.
 
 ### Adding Tags to Tunes
 
@@ -104,7 +108,9 @@ Tags can be used in advanced search to find tunes that match specific criteria.
 
 ## Custom Fields
 
-Custom fields let you track additional information about your tunes that isn't covered by the default fields.
+**Why use custom fields:** Maybe you want to track which book a tune came from, or what key you prefer to play it in, or who taught it to you. Custom fields let you add any information that's important to you. You can create text fields, number fields, or date fields - whatever helps you organize your tunes the way you think about them.
+
+Custom fields let you track additional information about your tunes that isn't covered by the default fields. Create fields for anything that matters to you - source, teacher, preferred key, or anything else you want to remember.
 
 ### Creating Custom Fields
 
@@ -180,7 +186,9 @@ You can control which fields are visible in the tune detail view.
 
 ## Instruments
 
-If you play multiple instruments, you can track which instrument you used for each practice session.
+**Why track instruments:** If you play multiple instruments (like fiddle and mandolin), tracking which instrument you used helps you see how much you're practicing on each one. Maybe you want to make sure you're giving equal time to both instruments, or you want to see your progress on each one separately. Instrument tracking gives you insight into how you're dividing your practice time.
+
+If you play multiple instruments, you can track which instrument you used for each practice session. This helps you see your practice patterns and make sure you're giving each instrument the attention it needs.
 
 ### Enabling Instrument Tracking
 

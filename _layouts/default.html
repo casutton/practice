@@ -13,7 +13,10 @@
             <div class="container">
                 <div class="header-content">
                     <h1 class="site-title">
-                        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+                        <a href="{{ '/' | relative_url }}">
+                            <img src="{{ '/assets/images/app-icon.png' | relative_url }}" alt="Practice!" class="app-icon" />
+                            Practice!
+                        </a>
                     </h1>
                     <nav class="main-nav">
                         <button class="nav-toggle" aria-label="Toggle navigation">
@@ -23,8 +26,10 @@
                         </button>
                         <ul class="nav-menu">
                             {% for item in site.navigation %}
+                            {% assign item_url_normalized = item.url | relative_url %}
+                            {% assign page_url_normalized = page.url | relative_url %}
                             <li>
-                                <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>
+                                <a href="{{ item_url_normalized }}" {% if page_url_normalized == item_url_normalized or page.url == item.url %}class="active"{% endif %}>
                                     {{ item.title }}
                                 </a>
                             </li>
@@ -35,10 +40,13 @@
             </div>
         </header>
 
+        <div class="header-image-bar">
+            <img src="{{ '/assets/images/background.jpg' | relative_url }}" alt="" class="background-image" />
+        </div>
+
         <main class="site-main">
             <div class="container">
                 <article class="content">
-                    <h1>{{ page.title }}</h1>
                     {{ content }}
                 </article>
             </div>
@@ -46,7 +54,7 @@
 
         <footer class="site-footer">
             <div class="container">
-                <p>&copy; {{ 'now' | date: "%Y" }} FolkTunesApp. All rights reserved.</p>
+                <p>&copy; {{ 'now' | date: "%Y" }} Practice!. All rights reserved.</p>
             </div>
         </footer>
     </div>

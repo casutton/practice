@@ -6,13 +6,15 @@ description: Setting up and managing practice goals in FolkTunesApp
 
 # Practice Goals
 
-Practice goals help you track your progress and stay motivated. You can set goals based on time, number of tunes, exercises, or practice sessions.
+**Why set goals:** Goals help you build a consistent practice habit and see your progress over time. Instead of practicing whenever you remember, goals give you a target to work toward. Maybe you want to practice 30 minutes every day, or practice 10 different tunes each week. Goals turn vague intentions into concrete targets you can achieve.
+
+Practice goals help you track your progress and stay motivated. You can set goals based on time, number of tunes, exercises, or practice sessions. The app tracks your progress automatically as you practice, so you can see how you're doing without having to keep track yourself.
 
 ## Goal Types
 
 ### Daily Goals
 
-Daily goals reset each day and are perfect for establishing a regular practice habit.
+**When to use daily goals:** Daily goals are perfect for building a regular practice habit. Maybe you want to practice 20 minutes every day, or practice at least 3 tunes each day. Daily goals reset each morning, so you start fresh every day. This helps you build consistency - even if you miss a day, you can pick right back up the next day.
 
 <div class="flow-step">
     <span class="step-number">1</span>
@@ -20,9 +22,7 @@ Daily goals reset each day and are perfect for establishing a regular practice h
     <p>Go to Improve > Goals and tap the "+" button. Select "Daily" as the goal type.</p>
 </div>
 
-<div class="screenshot placeholder">
-    <div class="caption">Screenshot: New goal screen with goal type picker</div>
-</div>
+![New goal screen]({{ '/assets/images/add-goal-view.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
@@ -47,7 +47,7 @@ Daily goals reset each day and are perfect for establishing a regular practice h
 
 ### Weekly Goals
 
-Weekly goals span a full week and are useful for tracking longer-term progress.
+**When to use weekly goals:** Weekly goals are great when you want more flexibility in your schedule. Maybe you can't practice every day, but you want to practice 2 hours total each week. Weekly goals let you practice more on some days and less on others, as long as you hit your weekly target. This works well for people with busy or irregular schedules.
 
 <div class="flow-step">
     <span class="step-number">1</span>
@@ -83,7 +83,7 @@ Monthly goals help you track progress over a longer period.
 
 ### Streak Goals
 
-Streak goals track consecutive days of practice.
+**When to use streak goals:** Streak goals help you build a daily practice habit by tracking how many days in a row you've practiced. The longer your streak, the more motivated you'll be to keep it going. Streak goals are great for building consistency - even if you only practice for 10 minutes, it keeps your streak alive and helps you maintain the habit.
 
 <div class="flow-step">
     <span class="step-number">1</span>

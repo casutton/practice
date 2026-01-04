@@ -6,7 +6,9 @@ description: Creating and practicing exercises in FolkTunesApp
 
 # Exercises
 
-Exercises are technical practice routines that help you improve specific skills. Unlike tunes, exercises focus on technique, scales, arpeggios, or other fundamental skills.
+**Why practice exercises:** While tunes are fun to play, exercises help you build the fundamental skills that make playing tunes easier. Scales, arpeggios, and technical exercises improve your finger dexterity, intonation, and overall technique. Practicing exercises regularly makes you a better musician, even when you're not playing specific tunes.
+
+Exercises are technical practice routines that help you improve specific skills. Unlike tunes, exercises focus on technique, scales, arpeggios, or other fundamental skills. You can track exercises the same way you track tunes - the app will suggest exercises that need practice based on your spaced repetition schedule.
 
 ## Creating an Exercise
 

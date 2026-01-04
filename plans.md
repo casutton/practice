@@ -6,7 +6,9 @@ description: Creating and using practice plans in FolkTunesApp
 
 # Practice Plans
 
-Practice plans help you organize your practice by grouping specific tunes and exercises together. Plans are useful for learning sets of related tunes or preparing for performances.
+**Why use practice plans:** Sometimes you want to focus on a specific set of tunes - maybe you're preparing for a performance, learning a set for a session, or working on tunes from a particular book. Practice plans let you group related tunes together so you can practice them as a set. When you start a practice session and select a plan, the app will suggest tunes from that plan, helping you focus on what you're working toward.
+
+Practice plans help you organize your practice by grouping specific tunes and exercises together. Plans are useful for learning sets of related tunes or preparing for performances. Instead of practicing random tunes, plans help you work toward a specific goal.
 
 ## Creating a Practice Plan
 
