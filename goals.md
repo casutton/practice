@@ -6,9 +6,13 @@ description: Setting up and managing practice goals in FolkTunesApp
 
 # Practice Goals
 
-**Why set goals:** Goals help you build a consistent practice habit and see your progress over time. Instead of practicing whenever you remember, goals give you a target to work toward. Maybe you want to practice 30 minutes every day, or practice 10 different tunes each week. Goals turn vague intentions into concrete targets you can achieve.
+There are four "motivational things" in Practice!:
 
-Practice goals help you track your progress and stay motivated. You can set goals based on time, number of tunes, exercises, or practice sessions. The app tracks your progress automatically as you practice, so you can see how you're doing without having to keep track yourself.
+1. Goals: These are messages to yourself about what you want to achieve next session, this week, this month. You set these in Improve > Goals. 
+2. Targets: This a goal for how much you want to practice, like "Practice 30 minutes every day" or "5 hours a week". You set these in Improve > Targets.
+3. Reminders: You can set reminders to practice in Improve > Reminders. These come up as notifications on your phone.
+4. Badges: The app tracks your progress and rewards you with badges for milestones you reach, if that's your thing. You can see this in History > Badges.
+
 
 ## Goal Types
 

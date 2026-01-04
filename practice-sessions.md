@@ -6,9 +6,7 @@ description: Complete guide to practice sessions in FolkTunesApp
 
 # Practice Sessions
 
-Practice sessions are the core of Practice!. Each session is a focused block of time where you work on your tunes. The app tracks what you practice, how long you practice, and how well you're doing - all to help you improve more effectively.
-
-**Why use practice sessions?** When you start a session, the app begins tracking your time and suggests tunes that need practice. This helps you focus on what matters most instead of wondering what to practice next. At the end of each session, you can see how much you accomplished, which builds motivation and helps you track your progress over time.
+When you start a session, the app begins tracking your time and suggests tunes that need practice. This helps you focus on what matters most instead of wondering what to practice next. At the end of each session, you can see how much you accomplished, which builds motivation and helps you track your progress over time.
 
 ## Starting a Practice Session
 
@@ -31,36 +29,13 @@ Practice sessions are the core of Practice!. Each session is a focused block of 
     <p>If instrument tracking is enabled in Settings, you'll be prompted to select which instrument you're practicing with.</p>
 </div>
 
-![Instrument selection screen]({{ '/assets/images/instrument-selection.png' | relative_url }})
-
 ## Selecting Tunes to Practice
 
-**Why the app suggests tunes:** The app shows you tunes that are due for review based on your spaced repetition schedule. These are tunes you've practiced before, and the app has calculated that now is a good time to practice them again - right before you'd start to forget them. This makes your practice time more effective.
+To select a tune to practice, you start with the "Choose Tune to Practice" button on the main practice screen:
 
-**When to search instead:** Sometimes you want to practice a specific tune, maybe one you're preparing for a performance or one you just learned. You can always search for any tune in your library, even if it's not due for review yet.
+![Main practice screen]({{ '/assets/images/practice-session-active-timer.png' | relative_url }})
 
-<div class="flow-step">
-    <span class="step-number">1</span>
-    <strong>Choose from suggested tunes</strong>
-    <p>The app displays tunes that are due for review based on your spaced repetition schedule. These are the tunes that will benefit most from practice right now.</p>
-</div>
-
-<div class="flow-step">
-    <span class="step-number">2</span>
-    <strong>Search for a specific tune</strong>
-    <p>Use the search bar to find a tune by title, composer, or tags if you want to practice something specific.</p>
-</div>
-
-
-<div class="flow-step">
-    <span class="step-number">3</span>
-    <strong>Select a tune</strong>
-    <p>Tap on a tune to begin practicing it. The tune detail view will open.</p>
-</div>
-
-### Tune Picker reference
-
-The tune picker includes several icons to help you find the right tune quickly:
+This brings up the tune picker. The tune picker includes several icons to help you find the right tune quickly:
 
 ![Tune picker screen with search and filter options]({{ '/assets/images/tune-picker-with-search.png' | relative_url }})
 
@@ -78,15 +53,9 @@ The tune picker includes several icons to help you find the right tune quickly:
 
 ### Session Timer
 
-**Why track your time:** Seeing how long you've practiced helps you build a consistent habit. Maybe you want to practice 30 minutes a day, or maybe you're trying to increase your practice time gradually. The timer runs automatically, so you don't have to think about it - just focus on practicing.
-
 The session timer automatically tracks how long you've been practicing. It starts when you begin a session and continues until you end the session.
 
-![Session timer display during active practice]({{ '/assets/images/practice-session-active-timer.png' | relative_url }})
-
 ### Metronome
-
-**Why use a metronome:** Playing at a steady tempo is one of the most important skills for any musician. A metronome helps you develop this skill by giving you a steady beat to follow. Start slow and gradually increase the tempo as you get more comfortable with a tune.
 
 The metronome provides a steady beat to help you practice at a consistent tempo. Use it when you're learning a new tune to keep yourself from rushing, or when you're polishing a tune to make sure you can play it at the right speed.
 
@@ -118,8 +87,6 @@ The metronome provides a steady beat to help you practice at a consistent tempo.
 </div>
 
 ### Rest Timer
-
-**Why take breaks:** Taking regular breaks prevents fatigue and helps you practice more effectively. Your hands and mind need rest, especially during longer practice sessions. The rest timer reminds you to step away for a few minutes, so you come back refreshed and ready to focus.
 
 The rest timer helps you take breaks between practice sessions or tunes. Set it for 2-5 minutes when you feel yourself getting tired, or use it to structure your practice into focused blocks with breaks in between.
 
@@ -166,9 +133,7 @@ You can add notes during or after a practice session. Session notes are general 
 
 ## Rating Your Practice
 
-**Why ratings matter:** After practicing a tune, you rate how it went. This rating tells the app when you should practice that tune again. Be honest with your ratings - if you struggled, rate it as "Difficult" so the app will bring it back soon. If you played it confidently, rate it as "Easy" so the app will schedule it further out. The more accurate your ratings, the better the app can help you learn.
-
-After practicing a tune, you'll be asked to rate your performance. This is how the app learns which tunes need more practice and which ones you've mastered.
+After practicing a tune, you rate how it went. This rating tells the app when you should practice that tune again. Be honest with your ratings - if you struggled, rate it as "Difficult" so the app will bring it back soon. If you played it confidently, rate it as "Easy" so the app will schedule it further out. The more accurate your ratings, the better the app can help you learn.
 
 <div class="flow-step">
     <span class="step-number">1</span>
@@ -214,23 +179,14 @@ After practicing a tune, you'll be asked to rate your performance. This is how t
 
 ## Completing Goals During Practice
 
-If you have active practice goals, the app will track your progress during sessions.
+If you have active practice goals, the app will show them to you during practice.
 
-<div class="flow-step">
-    <span class="step-number">1</span>
-    <strong>Goals appear automatically</strong>
-    <p>When you complete a goal during practice, the app will notify you.</p>
-</div>
-
-![Goal completion notification during practice]({{ '/assets/images/goal-completion-notification.png' | relative_url }})
-
-<div class="flow-step">
-    <span class="step-number">2</span>
-    <strong>Mark goal completion</strong>
-    <p>You can mark goals as completed, partially completed, or not completed, and add notes about your progress.</p>
-</div>
+At the end of the session, you can mark goals as completed if you wish. 
+When you finish a session, you see the following screen:
 
 ![Goal completion screen with status options]({{ '/assets/images/goal-completion-status.png' | relative_url }})
+
+This lets you mark goals as completed, if you don't want to see them any more.
 
 ## Ending a Practice Session
 

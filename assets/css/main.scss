@@ -256,11 +256,16 @@ body {
     }
 
     img {
-        max-width: 100%;
+        display: block;
+        max-width: 50%;
         height: auto;
         border-radius: 8px;
-        margin: $spacing-md 0;
+        margin: $spacing-md auto;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+        @media (max-width: $breakpoint-mobile) {
+            max-width: 80%;
+        }
     }
 
     table {
@@ -310,10 +315,15 @@ body {
     text-align: center;
 
     img {
-        max-width: 100%;
+        max-width: 50%;
+        height: auto;
         border: 1px solid $border-color;
         border-radius: 8px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+        @media (max-width: $breakpoint-mobile) {
+            max-width: 80%;
+        }
     }
 
     .caption {

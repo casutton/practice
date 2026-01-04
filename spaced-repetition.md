@@ -92,15 +92,13 @@ You can customize how long each bucket waits before review. This lets you tailor
     <p>In the "Practice Settings" section, tap "Configure Bucket Intervals".</p>
 </div>
 
-![Settings screen showing Configure Bucket Intervals option]({{ '/assets/images/settings-bucket-intervals.png' | relative_url }})
+![Bucket settings screen with interval sliders]({{ '/assets/images/bucket-settings-intervals.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
     <strong>Adjust intervals</strong>
     <p>For each bucket, set the number of days before the next review. You can use the slider or enter a value directly.</p>
 </div>
-
-![Bucket settings screen with interval sliders]({{ '/assets/images/bucket-settings-intervals.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">4</span>
@@ -131,15 +129,14 @@ You can see which bucket a tune is in and when it's due for review.
 
 ## How Tunes Are Selected for Practice
 
-**Why the app suggests certain tunes:** When you start a practice session, the app suggests tunes that will benefit most from practice right now. This saves you from having to decide what to practice - the app does the thinking for you based on what you need to work on.
+When you are choosing a tune, you can use the tune picker to find the tunes that are due for review. 
 
-The app suggests tunes based on:
+<p><img src="/practice/assets/images/tune-picker-with-search.png" alt="Tune picker screen with search and filter options" /></p>
 
-1. **Due for review** - Tunes whose next review date has passed (these are ready to practice again)
-2. **Bucket priority** - Tunes in lower buckets (that need more practice) appear first, so you focus on what needs the most work
-3. **Recent practice** - Tunes you haven't practiced recently get priority, so nothing gets forgotten
+Pressing the clock icon will show you the tunes that are due for review.
 
-![Practice view showing suggested tunes with bucket indicators]({{ '/assets/images/practice-view-bucket-indicators.png' | relative_url }})
+This is just a guideline to help you. Of course feel free to play whatever you like!
+
 
 ## Understanding the Algorithm
 
