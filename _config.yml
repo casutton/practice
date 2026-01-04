@@ -21,23 +21,23 @@ navigation:
   - title: Home
     url: /
   - title: Getting Started
-    url: /getting-started/
+    url: /getting-started.html
   - title: Practice Sessions
-    url: /practice-sessions/
+    url: /practice-sessions.html
   - title: Spaced Repetition
-    url: /spaced-repetition/
+    url: /spaced-repetition.html
   - title: Goals
-    url: /goals/
+    url: /goals.html
   - title: Exercises
-    url: /exercises/
+    url: /exercises.html
   - title: Plans
-    url: /plans/
+    url: /plans.html
   - title: Organizing Tunes
-    url: /organizing/
+    url: /organizing.html
   - title: Data Management
-    url: /data-management/
+    url: /data-management.html
   - title: Settings
-    url: /settings/
+    url: /settings.html
 
 # Exclude from processing
 exclude:
