@@ -180,3 +180,5 @@ If you need to start fresh, you can delete all data from the app.
     <strong>Warning:</strong> Deleting all data will permanently remove all tunes, practice sessions, goals, and settings. Make sure you have exported your data first if you want to keep it.
 </div>
 
+
+

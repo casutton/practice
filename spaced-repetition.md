@@ -45,7 +45,7 @@ When you rate a tune after practicing, the app moves it to a different bucket. E
 
 ## The Bucket System
 
-The app uses five buckets with increasing review intervals:
+The app uses four buckets with increasing review intervals:
 
 ### Bucket 0: Next Session
 - **Default interval:** 1 day
@@ -66,13 +66,8 @@ The app uses five buckets with increasing review intervals:
 
 ### Bucket 3: Occasional
 - **Default interval:** 14 days
-- **Purpose:** Tunes that are mastered
-- **When tunes are here:** After consistently rating a tune as "Good" or "Easy"
-
-### Bucket 4: Mastered
-- **Default interval:** 30 days
 - **Purpose:** Tunes you know very well
-- **When tunes are here:** After consistently rating a tune as "Easy"
+- **When tunes are here:** After consistently rating a tune as "Good" or "Easy"
 
 ## Customizing Bucket Intervals
 
