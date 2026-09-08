@@ -20,18 +20,18 @@ plugins:
 navigation:
   - title: Home
     url: /
+  - title: How-To Videos
+    url: /how-to/
   - title: Getting Started
     url: /getting-started.html
   - title: Practice Sessions
     url: /practice-sessions.html
-  - title: Spaced Repetition
+  - title: Comfort Levels
     url: /spaced-repetition.html
   - title: Goals
     url: /goals.html
   - title: Exercises
     url: /exercises.html
-  - title: Plans
-    url: /plans.html
   - title: Organizing Tunes
     url: /organizing.html
   - title: Data Management

@@ -8,9 +8,9 @@ description: Setting up and managing practice goals in FolkTunesApp
 
 There are four "motivational things" in Practice!:
 
-1. Goals: These are messages to yourself about what you want to achieve next session, this week, this month. You set these in Improve > Goals. 
-2. Targets: This a goal for how much you want to practice, like "Practice 30 minutes every day" or "5 hours a week". You set these in Improve > Targets.
-3. Reminders: You can set reminders to practice in Improve > Reminders. These come up as notifications on your phone.
+1. Goals: These are messages to yourself about what you want to achieve next session, this week, this month. You set these in the Goals tab. 
+2. Targets: This a goal for how much you want to practice, like "Practice 30 minutes every day" or "5 hours a week". You set these in Goals > Schedule.
+3. Reminders: You can set reminders to practice in Goals > Schedule. These come up as notifications on your phone.
 4. Badges: The app tracks your progress and rewards you with badges for milestones you reach, if that's your thing. You can see this in History > Badges.
 
 
@@ -23,10 +23,8 @@ Goals are personal reminders to yourself about what you want to achieve. Unlike 
 <div class="flow-step">
     <span class="step-number">1</span>
     <strong>Navigate to Goals</strong>
-    <p>Go to Improve > Goals and tap the "+" button.</p>
+    <p>Go to the Goals tab and tap the "+" button.</p>
 </div>
-
-![New goal screen]({{ '/assets/images/add-goal-view.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
@@ -40,45 +38,37 @@ Goals are personal reminders to yourself about what you want to achieve. Unlike 
 
 <div class="flow-step">
     <span class="step-number">3</span>
-    <strong>Choose Time Frame</strong>
-    <p>Select when you want to work on this goal:</p>
+    <strong>Set Filters (Optional)</strong>
+    <p>A goal shows up in every practice session by default. These narrow that down:</p>
     <ul>
-        <li><strong>Next Session</strong> - The goal appears every practice session until completed</li>
-        <li><strong>This Week</strong> - The goal is active for the current week</li>
-        <li><strong>This Month</strong> - The goal is active for the current month</li>
+        <li><strong>Days</strong> - Show the goal only on certain days of the week. Leave empty for all days.</li>
+        <li><strong>First session of week only</strong> - Show it once a week, on your first session.</li>
+        <li><strong>Instrument</strong> - Show it only when you're practicing a particular instrument (if you have instrument tracking on). Defaults to All Instruments.</li>
     </ul>
 </div>
 
 <div class="flow-step">
     <span class="step-number">4</span>
-    <strong>Set Filters (Optional)</strong>
-    <p>Restrict when the goal should appear:</p>
-    <ul>
-        <li><strong>Days of Week</strong> - Select specific days when this goal should appear</li>
-        <li><strong>First Session of Week</strong> - Only show on your first practice session each week</li>
-        <li><strong>Instrument</strong> - Only show when practicing a specific instrument (if multi-instrument mode is enabled)</li>
-    </ul>
+    <strong>Someday (Optional)</strong>
+    <p>Switch on <strong>Someday</strong> to park a goal you're not working on yet. It's saved but not active, and it won't turn up in sessions until you make it active.</p>
+</div>
+
+<div class="info">
+    Goals have no deadline or time frame. They stay with you until you complete them or park them as Someday - there's nothing to expire and nothing to fall behind on.
 </div>
 
 ### Completing Goals
 
-When you're finished with a goal, you can mark it complete:
-
-1. Swipe left on the goal and tap "Complete", or
-2. Tap on the goal and select "Mark as Complete"
+When you're finished with a goal, tap it to open it, then tap **Complete**. A goal you've parked shows **Make Active** instead.
 
 You'll be prompted to add a completion note describing what you achieved. Goals support three completion statuses:
 - **Needs Work** - You made progress but want to continue working on this
 - **Good** - You achieved satisfactory results  
 - **Great** - You exceeded your expectations
 
-![Goal completion status]({{ '/assets/images/goal-completion-status.png' | relative_url }})
-
 ### Viewing Goals
 
-![Active goals list]({{ '/assets/images/goals-list-active.png' | relative_url }})
-
-The Goals view shows your **Active Goals** at the top and **Completed Goals** in a separate section below. Completed goals can be reactivated by swiping and tapping "Unarchive".
+The Goals view has three sections: **Active** at the top, then **Someday** for the ones you've parked, then **Completed** below that. To bring a completed goal back, press and hold it and choose **Unarchive**.
 
 ## 2. Targets
 
@@ -86,7 +76,7 @@ Targets are quantitative practice goals that track how much you want to practice
 
 ### Creating a Target
 
-Navigate to **Improve > Targets** to set up your practice targets.
+Navigate to **Goals > Schedule** to set up your practice targets.
 
 <div class="flow-step">
     <span class="step-number">1</span>
@@ -122,7 +112,7 @@ Navigate to **Improve > Targets** to set up your practice targets.
 
 ## 3. Reminders
 
-Reminders are push notifications that prompt you to practice. You can set these up in **Improve > Reminders**.
+Reminders are push notifications that prompt you to practice. You can set these up in **Goals > Schedule**.
 
 ### Daily Practice Reminders
 
@@ -158,34 +148,29 @@ There's a special "Remind me about current streak" option that sends you a remin
 
 The app rewards you with achievement badges for reaching practice milestones. View your badges in **History > Badges**.
 
-### Badge Categories
+### How badges work
 
-Badges are organized into four categories:
+Each badge is a single category that **climbs through tiers** as you go, rather than a separate award you collect. The tiers are Bronze, Silver, Gold, Platinum, Diamond and Obsidian.
 
-**Streak Badges** 🔥
-- **Week Warrior** - Practice for 7 days in a row
-- **Two Week Champion** - Practice for 14 days in a row
-- **Monthly Master** - Practice for 30 days in a row
-- **Century Streak** - Practice for 100 days in a row
+There are five categories on show:
 
-**Session Badges** 🎵
-- **Getting Started** - Complete 10 practice sessions
-- **Dedicated Player** - Complete 50 practice sessions
-- **Century Sessions** - Complete 100 practice sessions
-- **Practice Legend** - Complete 500 practice sessions
+| Category | Bronze | Silver | Gold | Platinum | Diamond | Obsidian |
+|---|---|---|---|---|---|---|
+| **Sessions** | 10 | 50 | 100 | 500 | 1,000 | 2,500 |
+| **Practice Time** (hours) | 10 | 50 | 100 | 500 | 1,000 | 2,500 |
+| **Streak** (days) | 7 | 14 | 30 | 100 | 200 | 365 |
+| **Tunes** | 10 | 50 | 100 | 200 | 500 | 1,000 |
+| **Goal Streak** (weeks) | 2 | 4 | 8 | 16 | 32 | 52 |
 
-**Time Badges** ⏰
-- **10 Hour Club** - Practice for 10 total hours
-- **50 Hour Master** - Practice for 50 total hours
-- **Century Hours** - Practice for 100 total hours
-- **500 Hour Hero** - Practice for 500 total hours
+### Hidden badges
 
-**Tune Badges** 🎶
-- **Tune Explorer** - Practice 10 different tunes
-- **Tune Collector** - Practice 50 different tunes
-- **Tune Master** - Practice 100 different tunes
+Some badges stay out of sight until you've done something to earn them, so there's nothing to grind toward:
+
+- **Welcome Back** - for coming back after time away (7 days, 30 days, a year)
+- **Tradition Explorer** - for practicing tunes from 3, 5, 8 or 12 different traditions
+- **First Jam!** and **First Gig!** - one-off, awarded the first time each happens
 
 ### Enabling/Disabling Badge Reminders
 
-If you find the badge notifications distracting, you can disable them in **Settings > Show Achievement Reminders**. Your progress will still be tracked, and you can always view your badges in History > Badges.
+If you find the badge notifications distracting, switch off **Show Achievement Reminders** in Settings, under Appearance. Your progress is still tracked, and the badges are still there in History > Badges whenever you want to look.
 

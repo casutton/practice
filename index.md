@@ -9,6 +9,12 @@ description: Complete documentation for Practice!
 Welcome to the Practice! documentation. Choose a topic to get started.
 
 <div class="docs-grid">
+    <a href="/practice/how-to/" class="doc-card">
+        <div class="card-icon">▶️</div>
+        <h2>How-To Videos</h2>
+        <p>Short walkthroughs of the parts of the app that aren't obvious from looking at it — finding what you know, planning a week, noting tunes at a jam.</p>
+    </a>
+
     <a href="/practice/getting-started.html" class="doc-card">
         <div class="card-icon">🚀</div>
         <h2>Getting Started</h2>
@@ -23,8 +29,8 @@ Welcome to the Practice! documentation. Choose a topic to get started.
 
     <a href="/practice/spaced-repetition.html" class="doc-card">
         <div class="card-icon">📚</div>
-        <h2>Spaced Repetition</h2>
-        <p>Understand how the bucket system works and how tunes are scheduled for review based on your performance.</p>
+        <h2>Comfort Levels</h2>
+        <p>Understand Comfort Levels, how your ratings move a tune between them, and how your Repertoire builds up.</p>
     </a>
 
     <a href="/practice/goals.html" class="doc-card">
@@ -39,16 +45,10 @@ Welcome to the Practice! documentation. Choose a topic to get started.
         <p>Create and practice technical exercises to improve your skills and technique.</p>
     </a>
 
-    <a href="/practice/plans.html" class="doc-card">
-        <div class="card-icon">📋</div>
-        <h2>Practice Plans</h2>
-        <p>Organize related tunes into practice plans for focused learning sessions.</p>
-    </a>
-
     <a href="/practice/organizing.html" class="doc-card">
         <div class="card-icon">🗂️</div>
         <h2>Organizing Tunes</h2>
-        <p>Use genres, tags, custom fields, and instruments to keep your tune library organized.</p>
+        <p>Use traditions, tags, custom fields, and instruments to keep your tune library organized.</p>
     </a>
 
     <a href="/practice/data-management.html" class="doc-card">
@@ -60,6 +60,6 @@ Welcome to the Practice! documentation. Choose a topic to get started.
     <a href="/practice/settings.html" class="doc-card">
         <div class="card-icon">⚙️</div>
         <h2>Settings</h2>
-        <p>Configure profiles, practice settings, bucket intervals, and customize the app to your needs.</p>
+        <p>Configure profiles, practice settings, and customize the app to your needs.</p>
     </a>
 </div>

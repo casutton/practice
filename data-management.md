@@ -24,15 +24,13 @@ Exporting creates a backup of all your data that you can restore later or transf
 
 <div class="flow-step">
     <span class="step-number">2</span>
-    <strong>Navigate to Data Management</strong>
-    <p>Scroll to the "Data Management" section.</p>
+    <strong>Open Backups</strong>
+    <p>Scroll to the "iCloud Sync" section and tap "Backups".</p>
 </div>
-
-![Settings screen showing Data Management section]({{ '/assets/images/settings-data-management.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
-    <strong>Tap "Export All Data"</strong>
+    <strong>Under "Move Your Data", tap "Export All Data"</strong>
     <p>This will create a JSON file containing all your tunes, practice sessions, goals, and settings.</p>
 </div>
 
@@ -42,8 +40,6 @@ Exporting creates a backup of all your data that you can restore later or transf
     <p>Use the share sheet to save the file to Files, email it, or save it to another app.</p>
 </div>
 
-![Share sheet for exporting data]({{ '/assets/images/export-share-sheet.png' | relative_url }})
-
 <div class="info">
     <strong>What's included in the export:</strong>
     <ul>
@@ -51,10 +47,9 @@ Exporting creates a backup of all your data that you can restore later or transf
         <li>Practice sessions and ratings</li>
         <li>Goals and goal completions</li>
         <li>Exercises and exercise practice</li>
-        <li>Practice plans</li>
-        <li>Custom fields and field visibility settings</li>
-        <li>Genres and instruments</li>
-        <li>Bucket settings</li>
+        <li>Custom fields</li>
+        <li>Traditions and instruments</li>
+        <li>Comfort Level settings</li>
     </ul>
 </div>
 
@@ -64,13 +59,13 @@ You can restore data from a previous export or import data from another device.
 
 <div class="flow-step">
     <span class="step-number">1</span>
-    <strong>Open Settings</strong>
-    <p>Navigate to Settings > Data Management.</p>
+    <strong>Open Backups</strong>
+    <p>Navigate to Settings > iCloud Sync > Backups.</p>
 </div>
 
 <div class="flow-step">
     <span class="step-number">2</span>
-    <strong>Tap "Import Data"</strong>
+    <strong>Under "Move Your Data", tap "Restore from File"</strong>
     <p>This opens the file picker.</p>
 </div>
 
@@ -86,10 +81,37 @@ You can restore data from a previous export or import data from another device.
     <p>The app will show you what was imported: how many tunes, sessions, etc.</p>
 </div>
 
-![Import results screen]({{ '/assets/images/import-results.png' | relative_url }})
+<div class="info">
+    <strong>How merging works.</strong> Restoring adds to what's already on the device rather than replacing it, and it will not overwrite anything:
+    <ul>
+        <li>Tunes, sessions, exercises and ratings are matched by their internal identity, <em>not</em> by title. Anything already on the device is left exactly as it is and reported as skipped - so restoring the same file twice is harmless, and a tune you've since edited keeps your edits.</li>
+        <li>Traditions and instruments are matched by name instead, case-insensitively. That's what stops a file from another device giving you two "Old Time" entries.</li>
+    </ul>
+    <p>Because titles are never used to match tunes, two different settings of a tune with the same name stay two separate tunes.</p>
+</div>
 
 <div class="warning">
-    <strong>Important:</strong> Importing data will merge with your existing data. Tunes with the same title may be updated. Make sure you have a recent backup before importing.
+    <strong>Before you import:</strong> the app takes an automatic backup immediately beforehand, so there's a way back if the result isn't what you expected.
+</div>
+
+## Automatic Backups
+
+You don't have to remember to do any of this. The app backs itself up **every 7 days, and again before any import**, and keeps those backups on the device.
+
+<div class="flow-step">
+    <span class="step-number">1</span>
+    <strong>Open Backups</strong>
+    <p>Settings > iCloud Sync > Backups. The "Last Backup" row tells you when the most recent one was taken.</p>
+</div>
+
+<div class="flow-step">
+    <span class="step-number">2</span>
+    <strong>Tap a backup to restore it</strong>
+    <p>The list shows what's available. Tap one and confirm.</p>
+</div>
+
+<div class="info">
+    Automatic backups live on the device, so they'll get you out of a bad import or a mistaken deletion - but they won't help if you lose the phone. For that, use <strong>Export All Data</strong> and keep the file somewhere else, or rely on iCloud sync.
 </div>
 
 ## ForScore Import
@@ -104,20 +126,18 @@ Practice! can import tunes from ForScore 4SC files.
 
 <div class="flow-step">
     <span class="step-number">2</span>
-    <strong>Choose import option</strong>
-    <p>You can either:</p>
+    <strong>Choose an action</strong>
+    <p>The "Import from forScore" screen offers two:</p>
     <ul>
-        <li><strong>Associate with existing tune</strong> - Link the ForScore file to a tune already in your library</li>
-        <li><strong>Create new tune</strong> - Create a new tune from the ForScore metadata</li>
+        <li><strong>Link to Existing</strong> - attach the forScore score to a tune you already have. You pick the tune.</li>
+        <li><strong>Create New</strong> - make a new tune from the forScore metadata.</li>
     </ul>
 </div>
 
-![ForScore import options screen]({{ '/assets/images/forscore-import-options.png' | relative_url }})
-
 <div class="flow-step">
     <span class="step-number">3</span>
-    <strong>Complete the import</strong>
-    <p>Fill in any additional tune information and tap "Import".</p>
+    <strong>Finish</strong>
+    <p>Tap <strong>Link</strong> or <strong>Create</strong> - the button changes to match the action you chose.</p>
 </div>
 
 ## iCloud Sync
@@ -137,10 +157,11 @@ Practice! supports iCloud sync to keep your data synchronized across multiple de
     <strong>View sync status</strong>
     <p>The app displays your iCloud account status:</p>
     <ul>
-        <li><strong>Available</strong> - iCloud is enabled and working</li>
-        <li><strong>No Account</strong> - No iCloud account is signed in</li>
+        <li><strong>Connected</strong> - iCloud is enabled and working</li>
+        <li><strong>No iCloud Account</strong> - no iCloud account is signed in on this device</li>
         <li><strong>Restricted</strong> - iCloud is restricted on this device</li>
-        <li><strong>Could Not Determine</strong> - Unable to check status</li>
+        <li><strong>Temporarily Unavailable</strong> - iCloud is reachable but not answering right now; usually sorts itself out</li>
+        <li><strong>Unknown</strong> - the app couldn't determine the status</li>
     </ul>
 </div>
 
@@ -161,13 +182,13 @@ If you need to start fresh, you can delete all data from the app.
 <div class="flow-step">
     <span class="step-number">1</span>
     <strong>Open Settings</strong>
-    <p>Navigate to Settings > Data Management.</p>
+    <p>Scroll to the very bottom of Settings.</p>
 </div>
 
 <div class="flow-step">
     <span class="step-number">2</span>
     <strong>Tap "Delete All Data"</strong>
-    <p>This is a destructive action, so it's in red text.</p>
+    <p>It sits on its own at the foot of the screen, in red.</p>
 </div>
 
 <div class="flow-step">

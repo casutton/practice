@@ -14,10 +14,8 @@ You can track which exercises you practice, and we keep track of them in a separ
 <div class="flow-step">
     <span class="step-number">1</span>
     <strong>Navigate to Exercises</strong>
-    <p>Go to the Improve tab, then select the Exercises section.</p>
+    <p>Go to the Library tab, then switch the scope from Tunes to Exercises.</p>
 </div>
-
-![Exercises view]({{ '/assets/images/exercise-list.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
@@ -26,16 +24,13 @@ You can track which exercises you practice, and we keep track of them in a separ
 </div>
 
 
-![Exercises form]({{ '/assets/images/exercise-form.png' | relative_url }})
-
 <div class="flow-step">
     <span class="step-number">3</span>
     <strong>Enter exercise details</strong>
-    <p>Fill in the exercise form:</p>
+    <p>There are only two fields, and only the first is required:</p>
     <ul>
-        <li><strong>Title</strong> - Name of the exercise (e.g., "C Major Scale")</li>
-        <li><strong>Description</strong> - What the exercise focuses on</li>
-        <li><strong>Category</strong> - Type of exercise (optional)</li>
+        <li><strong>Name</strong> - What the exercise is (e.g., "C Major Scale")</li>
+        <li><strong>Description</strong> - What it involves, if that's worth writing down</li>
     </ul>
 </div>
 
@@ -53,15 +48,11 @@ You can track which exercises you practice, and we keep track of them in a separ
     <p>Go to the Practice tab and start a practice session.</p>
 </div>
 
-![Practice session]({{ '/assets/images/practice-session-active-timer.png' | relative_url }})
-
 <div class="flow-step">
     <span class="step-number">2</span>
     <strong>Select an exercise</strong>
-    <p>During a practice session, tap the exercise picker button to choose an exercise to practice.</p>
+    <p>On the practice screen, the "Go straight to" card has an <strong>Exercises</strong> door. Tap it to pick one - it's the first row because warming up is usually where a session starts.</p>
 </div>
-
-![Exercise picker]({{ '/assets/images/exercise-picker.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">3</span>
@@ -72,7 +63,7 @@ You can track which exercises you practice, and we keep track of them in a separ
 <div class="flow-step">
     <span class="step-number">4</span>
     <strong>Rate your performance</strong>
-    <p>After practicing, rate the exercise similar to how you rate tunes.</p>
+    <p>Same three ratings as tunes - <strong>Needs Work</strong>, <strong>Almost</strong>, <strong>Got It</strong>. The rating is recorded in your history, but exercises have no Comfort Level and aren't part of your Repertoire: a scale isn't a tune you know, it's a thing you do.</p>
 </div>
 
 ## Editing Exercises
@@ -89,16 +80,22 @@ You can track which exercises you practice, and we keep track of them in a separ
     <p>Tap the "Edit" button to modify the exercise.</p>
 </div>
 
-![Exercise form]({{ '/assets/images/exercise-form.png' | relative_url }})
-
 <div class="flow-step">
     <span class="step-number">3</span>
     <strong>Make changes</strong>
-    <p>Update the exercise title, description, or category.</p>
+    <p>Update the name or the description.</p>
 </div>
 
 <div class="flow-step">
     <span class="step-number">4</span>
     <strong>Save changes</strong>
     <p>Tap "Save" to update the exercise.</p>
+</div>
+
+## Archiving an Exercise
+
+Exercises you've finished with don't have to be deleted. The edit screen has an **Archive** button under "Actions"; archived exercises drop out of the main list into a collapsed **Archived** section at the bottom, and **Unarchive** brings them back.
+
+<div class="info">
+    An exercise you've actually practiced <strong>can't be deleted</strong> - the app will tell you so and offer archiving instead. That's deliberate: deleting it would tear a hole in the practice history that references it. Exercises you've never practiced can be deleted outright.
 </div>

@@ -13,25 +13,31 @@ This is the documentation site for Practice!, built with Jekyll and hosted on Gi
 
 This site is configured for GitHub Pages. Simply push to the `main` branch and GitHub Pages will automatically build and deploy the site.
 
-## Adding Screenshots
+## No screenshots
 
-Place screenshots in the `assets/images/` directory and reference them in markdown files:
+The prose pages carry no screenshots, deliberately. Every one they had was
+years out of date and showed controls that had moved or been renamed — worse
+than no picture, because a stale image sitting beside correct text reads as an
+instruction. Keeping them current means re-shooting the set every time a screen
+changes, which nobody was ever going to do.
 
-```markdown
-![App Icon Example]({{ '/assets/images/app-icon.png' | relative_url }})
-```
+Where a screen genuinely needs showing, film it: the how-to videos under
+`how-to/` are regenerated from the storyboards in the app repo and go out of
+date gracefully. Don't reintroduce stills here.
 
 ## Documentation Structure
 
 - `index.md` - Getting started guide
 - `practice-sessions.md` - Practice session documentation
-- `spaced-repetition.md` - Spaced repetition system
+- `spaced-repetition.md` - Comfort Levels and the Repertoire
 - `goals.md` - Practice goals
 - `exercises.md` - Exercises
-- `plans.md` - Practice plans
 - `organizing.md` - Organizing tunes
 - `data-management.md` - Data import/export
 - `settings.md` - App settings
+- `how-to/` - The how-to videos. **Generated** — do not edit by hand. The
+  storyboards live in the app repo at `docs/videos/`; rebuild with
+  `scripts/build_tour_docs.py --out ../FolkTunesApp-docs/how-to` from there.
 
 ## Updating the Base URL
 

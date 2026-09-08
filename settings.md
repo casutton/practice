@@ -26,18 +26,20 @@ Profiles let you separate practice data for different musicians or practice cont
     <p>Tap on the current profile in the "Profiles" section, or tap "Manage Profiles".</p>
 </div>
 
-![Profile settings screen]({{ '/assets/images/profile-settings.png' | relative_url }})
-
 <div class="flow-step">
     <span class="step-number">3</span>
     <strong>Create a new profile</strong>
-    <p>Tap the "+" button to create a new profile. Enter a name and select an icon.</p>
+    <p>Tap "+", give it a name, and optionally a description and a photo. Only the name is required.</p>
 </div>
 
 <div class="flow-step">
     <span class="step-number">4</span>
     <strong>Switch profiles</strong>
-    <p>Tap on a profile to switch to it. Each profile has its own tunes, practice sessions, and goals.</p>
+    <p>Tap a profile to switch to it. Each profile has its own tunes, practice sessions, and goals.</p>
+</div>
+
+<div class="info">
+    Profiles you've finished with can be <strong>archived</strong> rather than deleted - they drop into an "Archived" section and keep their data. Useful for a student who's stopped coming.
 </div>
 
 ## Practice Settings
@@ -50,17 +52,15 @@ Profiles let you separate practice data for different musicians or practice cont
     <p>In Settings > Practice Settings, toggle "Track Instruments" to enable.</p>
 </div>
 
-![Instrument tracking toggle]({{ '/assets/images/instrument-tracking-toggle.png' | relative_url }})
-
 <div class="flow-step">
     <span class="step-number">2</span>
     <strong>Manage instruments</strong>
     <p>With tracking enabled, tap "Manage Instruments" to add, edit, or remove instruments.</p>
 </div>
 
-### Bucket Intervals
+### Haven't Played In A While
 
-Configure how long each spaced repetition bucket waits before review.
+Set how long a Repertoire tune can go untouched before it turns up in the "Haven't played in a while" pool when you plan your week.
 
 <div class="flow-step">
     <span class="step-number">1</span>
@@ -68,18 +68,20 @@ Configure how long each spaced repetition bucket waits before review.
     <p>In Settings > Practice Settings, tap "Configure Bucket Intervals".</p>
 </div>
 
-![Bucket settings screen]({{ '/assets/images/bucket-settings-intervals.png' | relative_url }})
-
 <div class="flow-step">
     <span class="step-number">2</span>
-    <strong>Adjust intervals</strong>
-    <p>Set the number of days for each bucket (Next Session, Next Week, Next Month, Occasional, Mastered).</p>
+    <strong>Set "Unplayed for"</strong>
+    <p>Under "Haven't Played In A While," set the number of days. The default is 30. Playing a tune resets its clock whether or not you rate it.</p>
 </div>
 
 <div class="flow-step">
     <span class="step-number">3</span>
     <strong>Save changes</strong>
-    <p>Tap "Save" to apply the new intervals.</p>
+    <p>Tap "Save" to apply.</p>
+</div>
+
+<div class="info">
+    The per-level interval settings at the top of this screen are left over from an earlier version that scheduled tunes by due date. The app no longer schedules reviews, so changing them has no visible effect. See <a href="/practice/spaced-repetition.html">Comfort Levels</a>.
 </div>
 
 ### Dashboard Settings
@@ -92,37 +94,33 @@ Configure what statistics appear on your practice dashboard.
     <p>In Settings > Practice Settings, tap "Dashboard Settings".</p>
 </div>
 
-![Dashboard settings screen]({{ '/assets/images/dashboard-settings.png' | relative_url }})
-
 <div class="flow-step">
     <span class="step-number">2</span>
-    <strong>Toggle widgets</strong>
-    <p>Enable or disable specific statistics:</p>
-    <ul>
-        <li>Total Sessions</li>
-        <li>Practice Time</li>
-        <li>Current Streak</li>
-        <li>Average Session Duration</li>
-        <li>Tunes Practiced</li>
-        <li>Exercises Practiced</li>
-    </ul>
+    <strong>Choose your statistics</strong>
+    <p>Nine to pick from - Total Sessions, Practice Time, Current Streak, Average Session, Tunes Practiced, Exercises Practiced, Practicing Since, Average Sessions per Week, and Average Time per Week. Four are on to start with; turn on what you care about and leave the rest off.</p>
 </div>
 
 <div class="flow-step">
     <span class="step-number">3</span>
-    <strong>Configure time period</strong>
-    <p>If Practice Time is enabled, choose the time period (This Week, This Month, This Year).</p>
+    <strong>Choose your dashboard sections</strong>
+    <p>Separately from the statistics, you can show or hide whole sections: the calendar, the weekly chart, statistics, achievements, Comfort Levels, favourite tunes, the weekly practice-time chart, and a breakdown of time by instrument.</p>
+</div>
+
+<div class="tip">
+    Nothing here changes your data - it only decides what the dashboard shows you. If the dashboard feels busy, this is the place to make it quieter.
 </div>
 
 ## Tune Organization
 
-### Managing Genres
+### Manage Traditions, Types and Tags
 
-See the [Organizing Your Tunes](/practice/organizing/) section for details on managing genres.
+Three lists live here: **Manage Traditions** (where a tune comes from - Old Time, Irish, Cape Breton), **Manage Types** (jig, reel, waltz, hornpipe) and **Manage Tags** (whatever you like).
 
-### Managing Custom Fields
+See [Organizing Your Tunes](/practice/organizing.html) for what to do with them.
 
-See the [Organizing Your Tunes](/practice/organizing/) section for details on custom fields.
+### Custom fields
+
+Custom fields aren't set up here - you add them to a tune directly, from the tune's Edit screen under "Custom Info". See [Organizing Your Tunes](/practice/organizing.html).
 
 ## Appearance
 
@@ -130,11 +128,9 @@ See the [Organizing Your Tunes](/practice/organizing/) section for details on cu
 
 <div class="flow-step">
     <span class="step-number">1</span>
-    <strong>Open Appearance Settings</strong>
-    <p>In Settings > Appearance, tap "Change App Icon".</p>
+    <strong>Open Fun Settings</strong>
+    <p>In Settings > Appearance, tap "Fun Settings".</p>
 </div>
-
-![App icon selection screen]({{ '/assets/images/app-icon-selection.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">2</span>
@@ -146,8 +142,8 @@ See the [Organizing Your Tunes](/practice/organizing/) section for details on cu
 
 Toggle whether the app shows achievement reminders when you reach milestones.
 
-## Data Management
+## Backups and iCloud Sync
 
-See the [Data Management](/practice/data-management/) section for details on exporting, importing, and managing your data.
+The **iCloud Sync** section holds sync status and **Backups**, which is where exporting, restoring and automatic backups live. See [Data Management](/practice/data-management.html).
 
 

@@ -33,11 +33,7 @@ When you start a session, the app begins tracking your time and suggests tunes t
 
 To select a tune to practice, you start with the "Choose Tune to Practice" button on the main practice screen:
 
-![Main practice screen]({{ '/assets/images/practice-session-active-timer.png' | relative_url }})
-
 This brings up the tune picker. The tune picker includes several icons to help you find the right tune quickly:
-
-![Tune picker screen with search and filter options]({{ '/assets/images/tune-picker-with-search.png' | relative_url }})
 
 
 - 🔍 **Search** - Search for tunes by title
@@ -45,9 +41,9 @@ This brings up the tune picker. The tune picker includes several icons to help y
 - 📖 **Someday** - Show tunes marked as "Someday" (tunes you want to learn later)
 - ⏰ **Due** - Show only tunes that are due for spaced repetition review
 - 🔀 **Shuffle** - Pick a random tune from the current list
-- ⇅ **Sort** - Change sort order (Name, Genre, Schedule, or Key)
-- ⚙️ **Filter** - Open advanced filters (Genre, Key, Mode, Tags)
-- 📑 **Saved Searches** - Access saved searches and practice plans
+- ⇅ **Sort** - Change sort order (Name, Tradition, Comfort Level, or Key)
+- ⚙️ **Filter** - Open advanced filters (Tradition, Key, Mode, Tags)
+- 📑 **Saved Searches** - Access your saved searches
 
 ## Practice Tools
 
@@ -77,8 +73,6 @@ The metronome provides a steady beat to help you practice at a consistent tempo.
     <strong>Adjust tempo</strong>
     <p>Tap the settings icon to open metronome settings where you can adjust BPM, time signature, and sound options.</p>
 </div>
-
-![Metronome settings screen]({{ '/assets/images/metronome-settings.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">4</span>
@@ -133,7 +127,7 @@ You can add notes during or after a practice session. Session notes are general 
 
 ## Rating Your Practice
 
-After practicing a tune, you rate how it went. This rating tells the app when you should practice that tune again. Be honest with your ratings - if you struggled, rate it as "Difficult" so the app will bring it back soon. If you played it confidently, rate it as "Easy" so the app will schedule it further out. The more accurate your ratings, the better the app can help you learn.
+After practicing a tune, you rate how it went. Ratings are how the app learns which tunes you have a grip on and which ones still need attention. Be honest - the more accurate your ratings, the better the app can help you.
 
 <div class="flow-step">
     <span class="step-number">1</span>
@@ -141,40 +135,40 @@ After practicing a tune, you rate how it went. This rating tells the app when yo
     <p>When you're done with a tune, you'll see the practice rating screen.</p>
 </div>
 
-![Practice rating screen with tune title and rating options]({{ '/assets/images/practice-rating-screen.png' | relative_url }})
-
 <div class="flow-step">
     <span class="step-number">2</span>
     <strong>Select a rating</strong>
     <p>Choose one of three options:</p>
     <ul>
-        <li><strong>Difficult</strong> - You struggled with this tune or made mistakes</li>
-        <li><strong>Good</strong> - You played it reasonably well with minor issues</li>
-        <li><strong>Easy</strong> - You played it confidently and accurately</li>
+        <li><strong>Needs Work</strong> - You struggled with this tune or made mistakes</li>
+        <li><strong>Almost</strong> - You played it reasonably well with minor issues</li>
+        <li><strong>Got It</strong> - You played it confidently and accurately</li>
     </ul>
 </div>
 
 <div class="flow-step">
     <span class="step-number">3</span>
-    <strong>Add notes (optional)</strong>
-    <p>You can add notes about what you worked on, what was challenging, or what to focus on next time.</p>
+    <strong>Write a "For next time" note (optional)</strong>
+    <p>Jot down what you worked on, what was awkward, or what to pick up next time - like "work on the B section" or "fingering for measure 8." The note comes back to you the next time this tune turns up.</p>
+    <p>You can also flip on <strong>Work on this</strong>. That puts the tune in the "To work on" pool, which is one of the lists you draw from when you plan your week.</p>
 </div>
-
-![Notes field in practice rating screen]({{ '/assets/images/practice-rating-screen.png' | relative_url }})
 
 <div class="flow-step">
     <span class="step-number">4</span>
     <strong>Save the rating</strong>
-    <p>Tap "Save" to record your rating. The tune will be scheduled for review based on your rating.</p>
+    <p>Tap "Save" to record your rating.</p>
 </div>
 
 <div class="info">
-    <strong>How ratings affect scheduling:</strong>
+    <strong>How ratings move a tune's Comfort Level:</strong>
     <ul>
-        <li><strong>Difficult</strong> → Tune moves to "Next Session" bucket (appears again soon)</li>
-        <li><strong>Good</strong> → Tune moves up one bucket (longer interval)</li>
-        <li><strong>Easy</strong> → Tune moves up one bucket (even longer interval)</li>
+        <li><strong>Needs Work</strong> → drops the tune one Comfort Level</li>
+        <li><strong>Almost</strong> → holds where it is, and breaks any run of "Got It"s</li>
+        <li><strong>Got It</strong> → three in a row move the tune up one Comfort Level</li>
     </ul>
+    <p>There are no due dates to keep up with, and nothing goes overdue. Ratings
+    shape your Comfort Levels; you decide what to practice when you plan your
+    week. See <a href="/practice/spaced-repetition.html">Spaced Repetition</a>.</p>
 </div>
 
 ## Completing Goals During Practice
@@ -183,8 +177,6 @@ If you have active practice goals, the app will show them to you during practice
 
 At the end of the session, you can mark goals as completed if you wish. 
 When you finish a session, you see the following screen:
-
-![Goal completion screen with status options]({{ '/assets/images/goal-completion-status.png' | relative_url }})
 
 This lets you mark goals as completed, if you don't want to see them any more.
 
